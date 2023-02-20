@@ -1,17 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import {configureStore,applyMiddleware,compose, createStore} from 'redux'
+import thunk from 'redux-thunk'
+import reducers from './reducers';
+import App from './App';  
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const store=createStore(reducers,compose(applyMiddleware(thunk)) )
+ReactDOM.render(
+    <GoogleOAuthProvider clientId='226240241671-3u02l0j9asomh53clffu2l4pujnfraol.apps.googleusercontent.com'>
+    <Provider store={store}>
+        <App/>
+    </Provider>
+    </GoogleOAuthProvider>,
+    document.getElementById('root'))
