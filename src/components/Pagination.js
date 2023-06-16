@@ -6,6 +6,7 @@ import { useDispatch,useSelector } from 'react-redux'
 import { getPosts } from '../actions/posts'
 const PostDetails = ({page}) => {
     const {numberOfPages}=useSelector((state)=>state.posts)
+   
   const classes=useStyles();
   const dispatch=useDispatch();
   useEffect(()=>{
