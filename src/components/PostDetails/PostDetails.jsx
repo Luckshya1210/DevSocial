@@ -6,6 +6,7 @@ import {useParams,useNavigate} from 'react-router-dom'
 import CommentSection from './CommentSection'
 import useStyles from './styles'
 import { getPost,getpostbysearch } from '../../actions/posts'
+import styles from './styles'
 
 const PostDetails = () => {
   const {post,posts,isLoading}=useSelector((state)=>state.posts);
@@ -34,16 +35,15 @@ const PostDetails = () => {
   const openPost=(_id)=>navigate(`/posts/${_id}`)
   const recommend=posts.filter(({_id})=>_id!=post._id)
   return (
-    <Paper style={{ padding: '20px', borderRadius: '15px' }} elevation={6}>
+    <Paper style={{ padding: '20px', borderRadius: '15px',background:'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)' }} className={styles.postd} elevation={6}>
       <div className={classes.card}>
         <div className={classes.section}>
-          <Typography variant="h3" component="h2">{post.title}</Typography>
+          <Typography style={{ fontFamily:'Rubik' }} variant="h3" component="h2">{post.title}</Typography>
           <Typography gutterBottom variant="h6" color="textSecondary" component="h2">{post.tags.map((tag) => `#${tag} `)}</Typography>
           <Typography gutterBottom variant="body1" component="p">{post.message}</Typography>
           <Typography variant="h6">Created by: {post.name}</Typography>
           <Typography variant="body1">{moment(post.createdAt).fromNow()}</Typography>
-          <Divider style={{ margin: '20px 0' }} />
-          <Typography variant="body1"><strong>Realtime Chat - coming soon!</strong></Typography>
+          <Divider style={{ margin: '20px 0' }} /> 
           <Divider style={{ margin: '20px 0' }} />
           <CommentSection post={post}/>
           <Divider style={{ margin: '20px 0' }} />

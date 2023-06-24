@@ -4,14 +4,19 @@ export default makeStyles({
   media: {
     height: 0,
     paddingTop: '56.25%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    backgroundBlendMode: 'darken',
+    backgroundColor: 'rgb(238,174,202)',
+    // backgroundBlendMode: 'darken',
   },
   border: {
     border: 'solid',
   },
   fullHeightCard: {
     height: '100%',
+  },
+  fr:{
+    color:'black',
+    fontWeight:'500',
+    fontFamily:'Rubik'
   },
   card: {
     display: 'flex',
@@ -43,6 +48,7 @@ export default makeStyles({
   },
   title: {
     padding: '0 16px',
+    fontFamily:'Rubik'
   },
   cardActions: {
     padding: '0 16px 8px 16px',
@@ -53,4 +59,7 @@ export default makeStyles({
     display: 'block',
     textAlign: 'initial',
   },
+  mess:{
+    fontFamily:'Rubik'
+  }
 });

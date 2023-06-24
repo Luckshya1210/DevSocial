@@ -82,7 +82,7 @@ const Auth = () => {
                 <Input name='password' label='Password' handleChange={handleChange} type={showpass?"text":"password"} handleShowPassword={handleShowPassword}/>
                 {isSignup && <Input name="confirmPassword" label="Repeat password" handleChange={handleChange} type="password" />}
               </Grid>
-              <Button type="submit" fullWidth variant="contained" color='primary' className={classes.submit} >
+              <Button type="submit" fullWidth variant="contained" color='black' className={classes.submit} >
                 {isSignup?'Sign Up':'Sign In'}
               </Button>
               <GoogleLogin  

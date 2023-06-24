@@ -50,4 +50,10 @@ export default makeStyles((theme) => ({
     overflowY: 'auto',
     marginRight: '30px',
   },
+  pt:{
+    fontFamily:'Rubik'
+  },
+  postd:{
+    background:'red'
+  }
 }));
