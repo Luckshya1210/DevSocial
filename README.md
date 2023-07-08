@@ -31,6 +31,7 @@ Tech Stack
 
 * Frontend deployed using Netlify - https://devsocialblog-network.netlify.app/posts
 * Backend API deployed on render - https://devsocial-backend.onrender.com/
+* Backend code - https://github.com/Luckshya1210/DevSocialBackend
 
 ## Follow the instructions below to set up and run the DevSocial locally:
 * Clone the repository:
