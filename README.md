@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# DevSocial - Social Blogging Network for Developers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+DevSocial is a social blogging network designed specifically for developers. It provides a platform where developers from around the world can interact with each other by posting, commenting, and liking blogs about new technologies and emerging trends. By eliminating the need for third-party services, DevSocial ensures greater control and privacy by building its own server and APIs using Node.js and Express. This full-stack application is built using the MERN (MongoDB, Express, React, Node.js) stack and incorporates various technologies like React.js, Node.js, MongoDB, Express server, JavaScript, CSS, and Google OAuth.
 
-In the project directory, you can run:
+## Features
+
+* Blog Posts: Developers can create, edit, and delete blog posts to share their knowledge and insights on new technologies and emerging trends.
+ 
+* Comments and Likes: Users can engage with blog posts by leaving comments and liking posts to show their appreciation or support.
+ 
+* Recommended Posts: The application recommends posts to users based on their interests and previous interactions, providing personalized content and enhancing their browsing experience.
+
+* Search and Filtering: The application provides search and filtering capabilities, allowing users to discover specific blog posts or topics of interest.
+
+* Google OAuth: Secure authentication and authorization are implemented using Google OAuth, ensuring a seamless and safe login experience for users.
+Tech Stack 
+
+## DevSocial utilizes the following technologies to provide its features:
+
+* React.js: The front-end of the application is built using React.js, providing a responsive and interactive user interface.
+* Node.js: Node.js is used as the back-end runtime environment for server-side code execution.
+* Express: Express.js is employed as the web application framework to build the server and APIs.
+* MongoDB: MongoDB serves as the database system to store and retrieve user profiles, blog posts, comments, and likes.
+* JavaScript: JavaScript is the primary programming language used for implementing the application's logic and functionality.
+* CSS: CSS is used for styling the user interface, creating an appealing and intuitive design.
+* Google OAuth: Google OAuth is utilized for secure authentication and authorization, allowing users to log in using their Google accounts.
+
+## Deployment of project
+
+* Frontend deployed using Netlify - https://devsocialblog-network.netlify.app/posts
+* Backend API deployed on render - https://devsocial-backend.onrender.com/
+* Backend code - https://github.com/Luckshya1210/DevSocialBackend
+
+## Follow the instructions below to set up and run the DevSocial locally:
+* Clone the repository:
+
+### `git clone https://github.com/your-username/your-project.git`
+### `cd your-project`
+
+* Install the dependencies:
+
+### `npm install`
+* Create a .env file in the root directory and set the required environment variables, such as MongoDB connection string and Google OAuth credentials.
+
+### Start the application:
+
+* Build and run the application:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Access the application:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open your web browser and visit http://localhost:3000 to access the DevSocial application.
 
-### `npm test`
+## Fork the repository
+* Create a new branch for your feature or bug fix.
+* Implement your feature or make changes to the codebase.
+* Commit and push your changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### `npm run build`
+## Contact
+For any inquiries or feedback, please contact luckshya1210@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using DevSocial! I hope you enjoy the platform and find it useful for sharing and discovering new technologies.
