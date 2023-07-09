@@ -2,22 +2,38 @@
 
 ## Overview
 
-DevSocial is a social blogging network designed specifically for developers. It provides a platform where developers from around the world can interact with each other by posting, commenting, and liking blogs about new technologies and emerging trends. By eliminating the need for third-party services, DevSocial ensures greater control and privacy by building its own server and APIs using Node.js and Express. This full-stack application is built using the MERN (MongoDB, Express, React, Node.js) stack and incorporates various technologies like React.js, Node.js, MongoDB, Express server, JavaScript, CSS, and Google OAuth.
+DevSocial is a fully responsive social blogging network designed specifically for developers. It provides a platform where developers from around the world can interact with each other by posting, commenting, and liking blogs about new technologies and emerging trends. By eliminating the need for third-party services, DevSocial ensures greater control and privacy by building its own server and APIs using Node.js and Express. This full-stack application is built using the MERN (MongoDB, Express, React, Node.js) stack and incorporates various technologies like React.js, Node.js, MongoDB, Express server, JavaScript, CSS, and Google OAuth.
 
 ## Features
 
-* Blog Posts: Developers can create, edit, and delete blog posts to share their knowledge and insights on new technologies and emerging trends.
- 
+* Blog Posts and clean responsive UI: Developers can create, edit, and delete blog posts to share their knowledge and insights on new technologies and emerging trends.
+
+ ![2023-07-09 (1)](https://github.com/Luckshya1210/DevSocial/assets/93855214/e2098b45-05fb-4cb8-99e6-e929cc6c795f)
+
 * Comments and Likes: Users can engage with blog posts by leaving comments and liking posts to show their appreciation or support.
+
+ ![2023-07-09 (5)](https://github.com/Luckshya1210/DevSocial/assets/93855214/a1f65925-6732-4bf6-a062-3aa604c242bc)
  
 * Recommended Posts: The application recommends posts to users based on their interests and previous interactions, providing personalized content and enhancing their browsing experience.
 
-* Search and Filtering: The application provides search and filtering capabilities, allowing users to discover specific blog posts or topics of interest.
+![2023-07-09 (2)](https://github.com/Luckshya1210/DevSocial/assets/93855214/fc3c3017-cc56-4c3e-9b7e-f0d6d079b6b1)
 
-* Google OAuth: Secure authentication and authorization are implemented using Google OAuth, ensuring a seamless and safe login experience for users.
-Tech Stack 
+* Search and Filtering with added security: The application provides search and filtering capabilities, allowing users to discover specific blog posts or topics of interest. Users can only like,comment and engage if they sign in to the platform.
 
-## DevSocial utilizes the following technologies to provide its features:
+ ![2023-07-09 (6)](https://github.com/Luckshya1210/DevSocial/assets/93855214/568885e0-6f75-4a53-9b08-56da1cec766f)
+
+ ![image](https://github.com/Luckshya1210/DevSocial/assets/93855214/0646db4f-435f-496a-b893-4fc3df0f872c)
+
+* Google OAuth and robust authentication system: Secure authentication and authorization are implemented using Google OAuth, ensuring a seamless and safe login experience for users. A clean sign in/sign up page where users can be authenticated. They can create there new accounts if they want.
+
+![image](https://github.com/Luckshya1210/DevSocial/assets/93855214/ca6837a6-0958-4477-add7-e199a8ab86ae)
+![image](https://github.com/Luckshya1210/DevSocial/assets/93855214/38124a72-fa64-4916-b9a9-02ec1f090a5d)
+
+* Seamless fetching of posts from the created API and responsiveness
+  
+![2023-07-09 (9)](https://github.com/Luckshya1210/DevSocial/assets/93855214/e5a8bd13-24ce-4f3e-8347-08c3f57e1d1c)
+ 
+## DevSocial utilizes the following technologies to provide its features: 
 
 * React.js: The front-end of the application is built using React.js, providing a responsive and interactive user interface.
 * Node.js: Node.js is used as the back-end runtime environment for server-side code execution.
@@ -29,7 +45,7 @@ Tech Stack
 
 ## Deployment of project
 
-* Frontend deployed using Netlify - https://devsocialblog-network.netlify.app/posts
+* Frontend deployed using Netlify - https://devsocialblog.netlify.app
 * Backend API deployed on render - https://devsocial-backend.onrender.com/
 * Backend code - https://github.com/Luckshya1210/DevSocialBackend
 
